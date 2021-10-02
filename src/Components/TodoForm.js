@@ -7,6 +7,7 @@ import{
   InputGroupAddon,
   Button,
   Form,
+  container
 } from "reactstrap"
 
 import {v4} from "uuid"
@@ -55,7 +56,6 @@ export default function TodoForm({addTodos}) {
           </InputGroupAddon>
         </InputGroup>
       </FormGroup>
-    
     </Form>
 
   )

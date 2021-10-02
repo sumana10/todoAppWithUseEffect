@@ -42,8 +42,9 @@ export default function App() {
     <Container fluid>
     <img src ={logo} className="App-logo" alt="logo"/>
     <h1>Todo with local storage</h1>
-    <Todos todos={todos} markComplete={markComplete}/>
     <TodoForm addTodos={addTodos}/>
+    <Todos todos={todos} markComplete={markComplete}/>
+    
     </Container>
   )
 }
