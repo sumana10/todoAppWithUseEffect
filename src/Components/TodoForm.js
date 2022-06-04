@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-
 import{
   FormGroup,
   Input,
@@ -7,7 +6,6 @@ import{
   InputGroupAddon,
   Button,
   Form,
-  container
 } from "reactstrap"
 
 import {v4} from "uuid"
@@ -46,7 +44,7 @@ export default function TodoForm({addTodos}) {
           name="todo"
           id="todo"
           placeholder="Enter a todo"
-          value={todoString}
+           value={todoString ? todoString : ""}
           onChange= {e =>setTodoString(e.target.value)}
           />
           <InputGroupAddon addonType="prepend">
