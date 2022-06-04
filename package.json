@@ -1,6 +1,6 @@
 {
   "name": "seven-localstorage-app",
-  "homepage": " https://sumana10.github.io/todoAppWithUseEffect/",
+  "homepage": "https://sumana10.github.io/todoAppWithUseEffect/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
