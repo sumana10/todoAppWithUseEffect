@@ -30,7 +30,6 @@ export default function TodoForm({addTodos}) {
       todoString,
       id: v4()
     }
-   
     addTodos(todo)
 
     setTodoString("")
