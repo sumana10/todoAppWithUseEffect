@@ -21,9 +21,7 @@ export default function TodoForm({addTodos}) {
     e.preventDefault();
    
     if(todoString === ""){
-    
        return alert("Please enter todo")
-
     }
 
     const todo = {
